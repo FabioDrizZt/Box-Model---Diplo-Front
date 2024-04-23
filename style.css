@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  border: 2px solid red;
+  min-height: 100vh;
+}
+section {
+  border: 5px solid;
+  width: 300px;
+  height: 300px;
+  box-shadow: 5px 5px;
+  position: relative;
+}
+div {
+  background-color: #09f;
+  /* border-style: solid;
+    border-width: 2px;
+    border-color: red; */
+  border-top: 6px red solid;
+  border-bottom: 6px green double;
+  border-left: 6px yellow dotted;
+  border-right: 6px rgb(180, 19, 148) outset;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+article {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  background: deeppink;
+  color: aliceblue;
+}
+.mostralo {
+  visibility: visible;
+  inset: 0;
+  margin: auto;
+}
